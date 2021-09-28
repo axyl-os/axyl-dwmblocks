@@ -1,0 +1,2 @@
+#!/bin/env bash
+pacman -Q | wc -l

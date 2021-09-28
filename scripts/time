@@ -1,0 +1,2 @@
+#!/bin/env bash
+date '+%I:%M:%S %p'
