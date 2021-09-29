@@ -1,3 +1,3 @@
-# axyl-dwmblocks-git
+# axyl-dwmblocks
 
 dwmblocks configuration for axyl-dwm
