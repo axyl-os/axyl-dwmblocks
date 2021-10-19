@@ -1,2 +1,2 @@
-#!/bin/env bash
-pacman -Q | wc -l
+#!/usr/bin/env bash
+echo "^c#94af7d^  $(pacman -Q | wc -l)"

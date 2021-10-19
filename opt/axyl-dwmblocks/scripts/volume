@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+get_volume() {
+  volume=`amixer get Master | tail -n1 | awk -F ' ' '{print $5}' | tr -d '[]'`
+}
+
+get_volume
+echo "^c#61afef^ 墳^c#61afef^ $volume"
