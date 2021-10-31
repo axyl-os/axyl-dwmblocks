@@ -3,9 +3,9 @@ if [[ ! $(acpi -b | grep -i battery) ]]; then
 	exit 0
 else
 	if [[ ! $(acpi -a|grep -i adapter|grep -i on-line) ]]; then
-		printf "^c#BF616A^  ^c#BF616A^ "
+		printf "^c#BF616A^  ^c#BF616A^"
 	else
-		printf "^c#81A1C1^  ^c#81A1C1^ "
+		printf "^c#81A1C1^  ^c#81A1C1^"
 	fi
 	echo "$(acpi | sed "s/,//g" | awk '{print $4}' | tr -d "\n")"
 fi
